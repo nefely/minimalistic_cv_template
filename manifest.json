@@ -1,0 +1,22 @@
+{
+  "lang": "en",
+  "short_name": "cv",
+  "name": "cv",
+  "start_url": "http://trackmebaby.com/nefely/portfolio/cv_minimal/",
+  "background_color": "#ffffff",
+  "theme_color": "#383838",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "logo_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+/* import styles */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,700');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('slick.css');
+@import url('intro.css');
+@import url('skills.css');
+@import url('propjects.css');
+@import url('interface.css');
+
+/* styles write here */
+
+body {
+    color: var(--dark);
+    background: var(--white);
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+
+body.dark {
+    color: var(--white);
+    background: var(--dark);
+}
+
+main {
+    position: relative;
+}
+
+.wrapper {
+    width: 1170px;
+}
+
+section {
+    width: 100%;
+    position: absolute;
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+}
+
+section > .wrapper > div {
+    padding: 60px 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        width: 1170px;
+    }
+}
+
+
+/* lg */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .wrapper {
+        width: 970px;
+    }
+}
+
+
+/* md */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .wrapper {
+        width: 720px;
+    }
+}
+
+
+/* sm */
+
+@media screen and (min-width: 560px) and (max-width: 767px) {
+    .wrapper {
+        width: calc(100% - 40px);
+    }
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 2.6em;
+    }
+    h2 {
+        font-size: 2.6em;
+    }
+    h3 {
+        font-size: 2.2em;
+    }
+    h4 {
+        font-size: 1.8em;
+    }
+    h5 {
+        font-size: 1.6em;
+    }
+    h6 {
+        font-size: 1.2em;
+    }
+}
+
+
+/* xs */
+
+@media screen and (max-width: 559px) {
+    .wrapper {
+        width: calc(100% - 20px);
+    }
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 2.6em;
+    }
+    h2 {
+        font-size: 2.6em;
+    }
+    h3 {
+        font-size: 2.2em;
+    }
+    h4 {
+        font-size: 1.8em;
+    }
+    h5 {
+        font-size: 1.6em;
+    }
+    h6 {
+        font-size: 1.2em;
+    }
+}
